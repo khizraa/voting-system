@@ -106,7 +106,6 @@ input[type="text"]::placeholder {
     border-radius: 0.5em;
     color: rgb(68, 43, 4);
     transition: background-color 1s, color 1s;
-    /* Add transition effect for color changes */
 }
 
 .names-div:hover {
@@ -136,8 +135,118 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
+
+@media screen and (max-width: 450px) {
+    .second-div {
+        width: 25em;
+    }
+}
+
 @media screen and (max-width: 352px) {
     .first-div {
+        width: 12em;
+    }
+
+    .second-div {
+        width: 20em;
+    }
+
+    .third-div {
         width: 18em;
+    }
+
+    .btn-add {
+        width: 2.66em;
+    }
+
+    input[type="text"] {
+        width: 13.7em;
+    }
+
+    .names-div {
+        width: 14em;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input[type="text"] {
+        width: 11.3em;
+    }
+
+    .names-div {
+        width: 12em;
+    }
+
+    .second-div {
+        width: 16em;
+    }
+
+}
+
+@media screen and (max-width: 322px) {
+    .first-div {
+        margin-left: 4.5em;
+    }
+
+    .second-div {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .second-div {
+        width: 18em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .first-div {
+        width: 10em;
+    }
+
+    .second-div {
+        width: 17em;
+    }
+
+    .third-div {
+        width: 16em;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    .names-div {
+        width: 12em;
+    }
+
+    input[type="text"] {
+        width: 11.3em;
+    }
+}
+
+@media screen and (max-width: 297px) {
+    .first-div {
+        width: 9.4em;
+    }
+
+    .second-div {
+        width: 15em;
+    }
+
+    .third-div {
+        width: 14em;
+    }
+
+    .names-div {
+        width: 11em;
+    }
+
+    input[type="text"] {
+        width: 10.1em;
     }
 }
