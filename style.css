@@ -17,7 +17,6 @@ body {
     background-size: cover;
     width: 100%;
     height: 100vh;
-    /* Set height to 100vh for full viewport height */
 }
 
 .first-div {
@@ -31,9 +30,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 20em;
     background-color: rgba(75, 50, 2, 0.74);
-    width: 70vh;
+    width: 28em;
     margin-top: 3em;
     margin-bottom: 10em;
     box-shadow: 3px 4px 10px rgba(67, 46, 1, 0.83);
@@ -48,12 +46,10 @@ h1 {
 
 .third-div {
     margin: 3em 3em;
-    /* margin-top: 2em;
-    margin-bottom: 3em; */
 }
 
 input[type="text"] {
-    width: 40vh;
+    width: 15em;
     height: 2.1em;
     font-size: 1em;
     padding: 0.2em 0.6em;
@@ -76,23 +72,22 @@ input[type="text"]::placeholder {
 .btn-add {
     color: rgb(241, 224, 197);
     background-color: rgb(68, 43, 4);
-    font-size: 0.9em;
+    font-size: 1.04em;
     padding: 0.2em 0.6em;
     border-radius: 0.5em;
     outline: none;
     border: none;
     height: 2.1em;
-    width: 14vh;
+    width: 6em;
     cursor: pointer;
     transition: background-color 1s, color 1s;
-    /* Add transition effect for color changes */
+
 }
 
 .btn-add:hover {
     background-color: rgb(48, 30, 2);
-    /* Light brown on hover */
     color: rgb(255, 255, 255);
-    /* Dark brown font color on hover */
+
 }
 
 .fourth-div {
@@ -107,7 +102,7 @@ input[type="text"]::placeholder {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 55vh;
+    width: 18em;
     border-radius: 0.5em;
     color: rgb(68, 43, 4);
     transition: background-color 1s, color 1s;
@@ -141,44 +136,8 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-@media screen and (max-width: 410px) {
-    .second-div {
-        width: 59vh;
+@media screen and (max-width: 352px) {
+    .first-div {
+        width: 18em;
     }
-
-    h1 {
-        font-size: 1.5em;
-    }
-
-    input[type="text"] {
-        width: 25vh;
-        height: 2.1em;
-        font-size: 0.8em;
-        padding: 0.2em 0.6em;
-    }
-
-    .btn-add {
-        font-size: 0.8em;
-        padding: 0.2em 0;
-        height: 2.1em;
-        width: 12vh;
-    }
-
-    .fourth-div {
-        margin-top: 3em;
-        margin-left: 0em;
-        margin-right: 3em;
-        width: 12em;
-    }
-
-    .names-div {
-        width: 38vh;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .second-div {
-        width: 54vh;
-    }
-
 }
